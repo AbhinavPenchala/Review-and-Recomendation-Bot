@@ -1,5 +1,5 @@
 streamlit
-langchain-google-genai==0.0.13
 google-generativeai==2.1.10
 requests
 python-dotenv
+
