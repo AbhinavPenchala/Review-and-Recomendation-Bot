@@ -1,4 +1,4 @@
-
+from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
 from config.config import GOOGLE_GEMINI_API_KEY
 
 def get_gemini_model():
