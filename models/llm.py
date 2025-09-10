@@ -1,4 +1,3 @@
-
 from google.generativeai import Client
 from config.config import GOOGLE_GEMINI_API_KEY
 
