@@ -3,7 +3,7 @@ from config.config import GOOGLE_GEMINI_API_KEY, APIFY_API_KEY
 from models.llm import get_gemini_model
 from utils.web_search import web_search
 from utils.helpers import format_response, needs_fallback
-#from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
 def get_chat_response(chat_model, messages, system_prompt):
     """Get response from the chat model including filter context."""
