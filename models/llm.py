@@ -1,4 +1,4 @@
-from google.generativeai import Client
+'''from google.generativeai import Client
 from config.config import GOOGLE_GEMINI_API_KEY
 
 def get_gemini_model():
@@ -8,4 +8,4 @@ def get_gemini_model():
         return client
     except Exception as e:
         print(f"Error initializing Gemini client: {e}")
-        return None
+        return None'''
