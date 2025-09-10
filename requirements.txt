@@ -1,0 +1,7 @@
+streamlit
+langchain-openai
+langchain-groq
+langchain-google-genai==0.0.13
+langchain-core
+requests
+python-dotenv
